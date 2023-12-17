@@ -13,3 +13,5 @@ bot.on("messageCreate", async (message) => {
 		console.log(`Le message ${message.content} a été envoyé`)
 	} catch {} 
 });
+
+bot.login(config.token)
