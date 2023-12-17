@@ -14,4 +14,4 @@ bot.on("messageCreate", async (message) => {
 	} catch {} 
 });
 
-bot.login(config.token)
+bot.login("TON TOKEN ICI")
